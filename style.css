@@ -31,5 +31,168 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: "Lora", serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
 }
 
+h1, 
+h2, 
+h3 {
+	font-family: "Playfair Display", serif;
+	line-height: 1.25;
+	color: #3e606b;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.logo {
+	width: 170px;
+}
+
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.menu a:hover {
+	background-color: #f195b2;
+	color: white;
+}
+
+.hero {
+	background: #242424 url(images/cupcake.jpg) no-repeat center/cover;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.obsah {
+	max-width: 1100px;
+	margin: 0 auto;
+	}
+
+.hero h1 {
+	color: white;
+	}
+
+.hero p {
+	color: white;
+	padding: 0 40% 0 0;
+	margin-bottom: 0;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+footer {
+	background-color: #303339;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+
+.kontejner {
+	display: flex;
+}
+
+.onas .levy,
+.onas .pravy,
+.blog .pravy,
+.blog .levy {
+	flex-basis: 50%;
+	}
+
+.onas .levy,
+.blog .levy {
+	margin-right: 30px;
+}
+
+.tlacitko {
+	text-decoration: none;
+	color: white;
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.tlacitko:hover {
+	background-color: #d2567d;
+}
+
+.onas .kontejner,
+.blog .kontejner {
+	align-items: center;
+}
+
+.cukrarka {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.peceni {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.produkt1,
+.produkt2,
+.produkt3,
+.produkt4 {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: #c6c6c6 2px 2px 10px;
+}
+
+.produkt1,
+.produkt2,
+.produkt3 {
+	margin-right: 30px;
+}
+
+.nabidka img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.dortiky h3,
+.dortiky p {
+	margin: 20px;
+}
+
+.dortiky h3 {
+	text-align: center;
+}
